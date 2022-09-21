@@ -3,6 +3,8 @@ body {
     font-size: 12px;
     max-width: 80vw;
     margin: auto;
+    background-color: rgb(59, 59, 59);
+    color: rgb(211, 211, 211);
 }
 
 h1 {
@@ -56,11 +58,25 @@ h1, h2 {
  }
 
  a {
-     color: black;
+     color: white;
 
  }
 
  a:hover {
      font-size: 13px;
 
+ }
+
+ .icondev {
+    display: flex;
+    flex-direction: row;
+    text-align: start;
+    margin-top: 1em;
+    width: 45px;
+    
+ }
+
+ .icondev > i {
+    font-size: 45px; 
+    margin-right: 5px;
  }
